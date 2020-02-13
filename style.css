@@ -1,0 +1,102 @@
+body {
+    /*color: #fff;*/
+    text-align: center;
+    text-shadow: 0 1px 0px rgba(0, 0, 0, .5);
+}
+
+header {
+    font-family: 'Bree Serif', serif;
+    opacity: 0.3;
+    padding-bottom: 15px;
+}
+
+.circles img {
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    background: url(images/me-liz.jpg) no-repeat;
+}
+
+.circles {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    transition: opacity .25s ease-in-out;
+}
+
+.btn-get-resume .btn {
+    font-size: 1.3rem;
+    opacity: .75;
+    transition: opacity .25s ease-in-out;
+    color: rgb(33, 33, 139);
+    font-family: sans-serif;
+}
+
+.btn-get-resume:hover {
+    opacity: 0.5;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 18px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: rgb(242, 243, 247);
+    border: 2px dotted;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-family: 'Bree Serif', serif;
+}
+
+h3:hover {
+    text-decoration: none;
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: rgb(33, 33, 139);
+}
+
+i {
+    padding: 15px;
+    font-family: sans-serif;
+    color: rgb(33, 33, 139);
+}
+
+.links li a .i {
+    font-size: 75px;
+    text-decoration: none;
+    height: 10px;
+    margin-top: 1rem;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.links li {
+    display: inline;
+    padding: 0;
+    margin: 2 rem;
+    white-space: nowrap;
+    list-style-type: none;
+    opacity: 0.2;
+    padding: 1 rem;
+}
+
+.links li:hover {
+    opacity: 2;
+}
